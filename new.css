@@ -26,6 +26,11 @@
     font-size: "10px";
     text-align: center;
   }
+  body {
+    background: #333;
+    padding: 70px 0;
+    font: 15px/20px Arial, sans-serif;
+  }
   .container {
     margin: 0 auto;
     width: 250px;
