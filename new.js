@@ -1,11 +1,11 @@
+//https://jascarousel.github.io/jascarousel/
 $(".slider").jasCarousel({
   margin: 20,
-  auto: false,
+  auto: true,
   speed: 800,
   delay: 2000,
   slideFrontFace: false,
   prevText:'Prev',
   nextText:'Next',
-  slideFrontFace:true,
-  moveOnSlideClick:true
+  slideFrontFace:true
 })
