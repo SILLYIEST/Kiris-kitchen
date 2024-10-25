@@ -27,3 +27,41 @@
     text-align: center;
   }
   
+  .carousel {
+    position: relative;
+    max-width: 600px; /* Adjust as needed */
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    max-width: 100%;
+    display: none; /* Hide all images initially */
+}
+
+.carousel img.active {
+    display: block; /* Show the active image */
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
